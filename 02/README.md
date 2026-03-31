@@ -29,11 +29,10 @@ proses.
 
 ### TUGAS
 
-### 1. Tampilkan berbagai proses yang ada pada komputer yang    anda gunakan sesuai
-dengan sistem operasi yang anda gunakan.
+### 1. Tampilkan berbagai proses yang ada pada komputer yang    anda gunakan sesuaidengan sistem operasi yang anda gunakan.
 Disini saya memakai sistem oprasi windows cara untuk melihat berbagai proses di task manager bisa dengan cara tekan pada keyboard ctrl+shift+esc dengan menekan tombol itu berbarengan akan menampilkan task manager dan anda bisa melihat berbagai proses yang ada pada komputer yang anda gunakan
     
-![tampilan proses](Images/image.png)
+![tampilan proses](Images/aplikasi%20capcut.png)
     Gambar diatas merupakan gambar task manager yang menampilkan berbagai proses pada komputer saya 
 
 ### 2. Jalankan salah satu aplikasi, perlihatkan proses yang dimunculkan oleh aplikasi tesebut.
@@ -43,3 +42,13 @@ aplikasi yang dijalankan adalah capcut editing video dan dari tampilan gambar di
 * Memori (RAM): sebesar 1.379,2 MB (±1,3 GB)
 * Disk: sebesar 2,3 MB/s
 * Jaringan (Network): sebesar 2,9 Mbps
+
+### 3. Carilah petunjuk untuk: me-restart proses dan mematikan proses. Matikan proses yang dimunculkan oleh aplikasi yang anda jalankan, jangan gunakan perintah untuk keluar dari aplikasi yang anda jalankan tetapi gunakan perintah untuk mematikan proses dari aplikasi yang anda jalankan.
+![](Images/end%20task.png)
+Gambar diatas merupakan proses aplikasi capcut sebelum di matikan prosesnya,di sistem oprasi windows untuk mematikan proses di task manager dengan cara klik kana aplikasi yang mau di matikan prosesnya dan pilih opsi "end task" setelah di end task maka aplikasi tersebut akan mematikan prosesnya di dalam komputer berikut gambar hasil setelah dimatika porsesnya
+
+![](Images/Screenshot%202026-03-31%20085153.png)
+Setelah aplikasi di end task maka akan terlihat tidak memakan sumber daya komputer
+
+### 4. Jelaskan semua hal yang anda kerjakan tersebut.
+Untuk membuka task manager di sistem oprasi windows bisa dengan short cut "ctr+shift+esc" dengan task manager saya dapat melihat berbagai komunikasi antar proses. saya mencoba membuka aplikasi CapCut editor video dan saya dapa melihat detail sumber daya yang digunakan aplikasi ini. Dan saya juga mencoba untuk mematikan proses dengan cara end task di task manager 
