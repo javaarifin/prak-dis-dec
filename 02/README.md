@@ -38,11 +38,11 @@ dengan sistem operasi yang anda gunakan.
     
     Disini saya memakai sistem oprasi windows cara untuk melihat berbagai proses di task manager bisa dengan cara tekan pada keyboard ctrl+shift+esc dengan menekan tombol itu berbarengan akan menampilkan task manager dan anda bisa melihat berbagai proses yang ada pada komputer yang anda gunakan
     
-![tampilan proses](images/image.png)
+![tampilan proses](Images/image.png)
     Gambar diatas merupakan gambar task manager yang menampilkan berbagai proses pada komputer saya 
 
 ### 2. Jalankan salah satu aplikasi, perlihatkan proses yang dimunculkan oleh aplikasi tesebut.
-![menjalankan aplikasi](images/Screenshot%202026-03-31%20085153.png)
+![menjalankan aplikasi](Images/Screenshot%202026-03-31%20085153.png)
 aplikasi yang dijalankan adalah capcut editing video dan dari tampilan gambar diatas menunjukan aplikasi ini menggunakan sumber daya sistem sebagai berikut :
 * CPU: sebesar 6,8%
 * Memori (RAM): sebesar 1.379,2 MB (±1,3 GB)
