@@ -21,13 +21,13 @@ Proses dikelola oleh sistem operasi dan terdiri atas executable code, data, reso
 informasi tentang state (stack dan heap). Setiap aplikasi yang dijalankan akan menjadi
 proses.
 
-### 1. Proses pada Satu Node
+### Proses pada Satu Node
  Pada satu node, semua akan berada dalam kendali sistem operasi: eksekusi
  menjadi proses, alokasi resources, pengelolaan proses, serta komunikasi antar proses. Hal
  ini bersifat transparan terhadap pengguna (artinya pengguna tidak perlu melihat, tapi di latar
  belakang proses ini dikelola oleh sistem operasi)
 
-### TUGAS
+### Tugas
 
 ### 1. Tampilkan berbagai proses yang ada pada komputer yang    anda gunakan sesuaidengan sistem operasi yang anda gunakan.
 Disini saya memakai sistem oprasi windows cara untuk melihat berbagai proses di task manager bisa dengan cara tekan pada keyboard ctrl+shift+esc dengan menekan tombol itu berbarengan akan menampilkan task manager dan anda bisa melihat berbagai proses yang ada pada komputer yang anda gunakan
@@ -52,3 +52,13 @@ Setelah aplikasi di end task maka akan terlihat tidak memakan sumber daya komput
 
 ### 4. Jelaskan semua hal yang anda kerjakan tersebut.
 Untuk membuka task manager di sistem oprasi windows bisa dengan short cut "ctr+shift+esc" dengan task manager saya dapat melihat berbagai komunikasi antar proses. saya mencoba membuka aplikasi CapCut editor video dan saya dapa melihat detail sumber daya yang digunakan aplikasi ini. Dan saya juga mencoba untuk mematikan proses dengan cara end task di task manager 
+
+##   Menggunakan Strawberry untuk GraphQL Server
+Berikut langkah-langkah praktik yang bisa dikerjakan:
+### 1. Pelajari cara menggunakan uv. Lihat catatan di 
+    https://github.com/NEO-X-School/notes/blob/main/uv/00.md.
+### 2. Buat workspace dengan nama workspace-01. Pada workspace tersebut, gunakan Python versi 3.14.3 (lihat petunjuk di atas).
+### 3. Buat environment, aktifkan environment yang sudah anda     buat tersebut.
+### 4. Instalasi paket-paket yang diperlukan:
+
+
