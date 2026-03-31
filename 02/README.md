@@ -22,21 +22,16 @@ informasi tentang state (stack dan heap). Setiap aplikasi yang dijalankan akan m
 proses.
 
 ### 1. Proses pada Satu Node
-
-
-    Pada satu node, semua akan berada dalam kendali sistem operasi: eksekusi
-    menjadi proses, alokasi resources, pengelolaan proses, serta komunikasi antar proses. Hal
-    ini bersifat transparan terhadap pengguna (artinya pengguna tidak perlu melihat, tapi di latar
-    belakang proses ini dikelola oleh sistem operasi)
+ Pada satu node, semua akan berada dalam kendali sistem operasi: eksekusi
+ menjadi proses, alokasi resources, pengelolaan proses, serta komunikasi antar proses. Hal
+ ini bersifat transparan terhadap pengguna (artinya pengguna tidak perlu melihat, tapi di latar
+ belakang proses ini dikelola oleh sistem operasi)
 
 ### TUGAS
 
 ### 1. Tampilkan berbagai proses yang ada pada komputer yang    anda gunakan sesuai
 dengan sistem operasi yang anda gunakan.
-
-
-    
-    Disini saya memakai sistem oprasi windows cara untuk melihat berbagai proses di task manager bisa dengan cara tekan pada keyboard ctrl+shift+esc dengan menekan tombol itu berbarengan akan menampilkan task manager dan anda bisa melihat berbagai proses yang ada pada komputer yang anda gunakan
+Disini saya memakai sistem oprasi windows cara untuk melihat berbagai proses di task manager bisa dengan cara tekan pada keyboard ctrl+shift+esc dengan menekan tombol itu berbarengan akan menampilkan task manager dan anda bisa melihat berbagai proses yang ada pada komputer yang anda gunakan
     
 ![tampilan proses](Images/image.png)
     Gambar diatas merupakan gambar task manager yang menampilkan berbagai proses pada komputer saya 
