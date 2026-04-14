@@ -253,4 +253,4 @@ Pada praktikum ini, saya berhasil memahami konsep komunikasi antar proses, baik 
 
 Pada bagian kedua, saya berhasil membangun server GraphQL menggunakan Strawberry GraphQL yang diintegrasikan dengan FastAPI dan dijalankan menggunakan Uvicorn. Selain itu, saya juga berhasil membuat client sederhana yang dapat mengirim request dan menerima response dari server.
 
-Secara keseluruhan, praktikum ini membantu saya memahami bagaimana komunikasi data terjadi antara client dan server dalam sistem terdistribusi secara nyata.
+Secara keseluruhan, praktikum ini membantu saya memahami bagaimana komunikasi data terjadi antara client dan server dalam sistem terdistribusi secara nyata.        
