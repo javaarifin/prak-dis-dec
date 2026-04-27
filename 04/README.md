@@ -20,12 +20,12 @@ https://medium.com/@eremeykin/how-to-setup-single-primary-postgresql-replication
 cker-compose-98c48f233bbf dengan perubahan signifikan. Kerjakan materi pada bagian ini
 dan buat penjelasannya di repo GitHub anda sesuai dengan ketentuan.
 
-1.  Prasyarat
+#### 1.  Prasyarat
 
     Install Docker
     ![](Images/Cek%20versi%20docker.png)
 
-2. Struktur Folder
+#### 2. Struktur Folder
 
         ![](Images/susunan%20folder.png)
 
@@ -101,17 +101,87 @@ dan buat penjelasannya di repo GitHub anda sesuai dengan ketentuan.
         alias dlp="sudo docker logs <nama-direktori>-postgres_primary-1"
 
 
-3. Menjalankan Docker-compose
-    ![](Images/menjalankan%20.png)
+#### 3. Menjalankan Docker-compose
+![](Images/menjalankan%20.png)
 
-    Cek kedua image
-    ![](Images/cek%20images.png)
+Cek kedua image
+![](Images/cek%20images.png)
 
-4. Pengujian 
-    ![](Images/pengujian%201.png)
+#### 4. Pengujian 
+![](Images/pengujian%201.png)
+    
 
-    ![](Images/pengujian%202.png)
+![](Images/pengujian%202.png)
 
-    Uji replika data
-    ![](Images/uji%20replika.png)
+Uji replika data
 
+![](Images/uji%20replika.png)
+
+![](Images/pg_promote.png)
+
+![](Images/pg_recovery.png)
+
+![](Images/docker%20down.png)
+
+
+## Replikasi Master-Master Menggunakan Apache Ignite
+
+#### 1. Buat folder baru 
+
+![](Images/folderbaruignite.png)
+
+#### 2. Buat isi file docker-compose
+
+
+        name: ignite3
+
+        x-ignite-def: &ignite-def
+        image: apacheignite/ignite:3.1.0
+        environment:
+            JVM_MAX_MEM: "4g"
+            JVM_MIN_MEM: "4g"
+        configs:
+            - source: node_config
+            target: /opt/ignite/etc/ignite-config.conf
+
+        services:
+        node1:
+            <<: *ignite-def
+            command: --node-name node1
+            ports:
+            - "10300:10300"
+            - "10800:10800"
+        node2:
+            <<: *ignite-def
+            command: --node-name node2
+            ports:
+            - "10301:10300"
+            - "10801:10800"
+        node3:
+            <<: *ignite-def
+            command: --node-name node3
+            ports:
+            - "10302:10300"
+            - "10802:10800"
+
+        configs:
+        node_config:
+            content: |
+            ignite {
+                network {
+                port: 3344
+                nodeFinder.netClusterNodes = ["node1:3344", "node2:3344", "node3:3344"]
+                }
+            }
+    
+### 3. Jalankan node
+![](Images/jlnkan%20node.png)
+
+### 4. Jalankan CLI ignite
+![](Images/CLI%20ignite.png)
+
+![](Images/CLI%20lanjut.png)
+
+### 5.  masukan folder sql
+
+![](Images/folder%20sql.png)
