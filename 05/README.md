@@ -28,5 +28,13 @@ Menginstall paket yang dibutuhkan
 ![](Images/install%20paket.png)
 
 ### 2. 
+ Membuat Aplikasi Web
 
+![](Images/scaffloading.png)
 
+Masuk ke direktori dan jalankan 
+
+![](Images/jalankan.png)
+![](Images/web.png)
+
+### 3. Konfogurasi Nginx dan Docker Compose
