@@ -18,3 +18,7 @@ agar high-availability dari suatu aplikasi bisa tercapai dengan melakukan proses
 aplikasi menjadi lebih dari satu dan mengkonfigurasi proxy load balance
 
 ### 1. Persiapan 
+
+![](Images/image.png)
+
+
