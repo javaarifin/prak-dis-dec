@@ -17,8 +17,16 @@ untuk pembahasan tentang Fault Tolerance. Pembahasan tentang load balancing dipe
 agar high-availability dari suatu aplikasi bisa tercapai dengan melakukan proses scaling
 aplikasi menjadi lebih dari satu dan mengkonfigurasi proxy load balance
 
-### 1. Persiapan 
+### 1.Persiapan Folder dan Python
 
 ![](Images/image.png)
+
+![](Images/pyhton.png)
+
+Menginstall paket yang dibutuhkan
+
+![](Images/install%20paket.png)
+
+### 2. 
 
 
