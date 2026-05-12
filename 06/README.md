@@ -9,40 +9,32 @@ Nama    : Muhammad Java Arifin
 NIM     : 235410073
 
 -----
+## Cloud Computing
 
-## Distributed File System - HDFS
+### Pengantar
+Cloud Computing menggunakan pendekatan XaaS atau sering juga disebut sebagai
+Everything as a Service. Dengan menggunakan pendekatan ini, provider dari Cloud
+Computing menyediakan berbagai sumber daya komputasi dan konsumen mendapatkan
+sumber daya tersebut dalam bentuk layanan. Meskipun saat ini ada banyak XaaS tetapi
+secara umum biasanya dibagi menjadi 3:
 
-
-### 0. Persyaratan Software
-
-Untuk mengerjakan materi pada petunjuk ini, beberapa distribusi software diperlukan:
-
-- JDK: versi 17 dan/atau 21. Jika akan mengkompilasi Apache Hadoop, gunakan versi 17. JDK versi 17 digunakan untuk server, sedangkan untuk client bisa menggunakan
-JDK 17 atau 21.
-
-- Apache Hadoop. Versi ini menggunakan versi 3.5.0 (rilis 2 April 2026).
-- pdsh
-- ssh
-- sshd telah dijalankan. Pada sistem Artix Linux + dinit sebagai init system, jalankan
-menggunakan sudo dinitctl start sshd. Jika menggunakan systemd: sudo
-systemctl start ssh
-
-### 1. Unduh Apache Hadoop
-
-Ambil distribusi Apache Hadoop di https://hadoop.apache.org/releases.html
-![](Images/download.png)
-
-### 2. Instalasi Apache Hadoop
-
-Ekstraksi file hasil download (asumsikan berada di
-~/master/data-engineering/apache-hadoop/hadoop-3.5.0.tar.gz), setelah itu
-konfigurasikan env var PATH:
-
-    Invoke-WebRequest "https://downloads.apache.org/hadoop/common/hadoop-3.5.0/hadoop-3.5.0.tar.gz" -OutFile "hadoop-3.5.0.tar.gz"
-
-![](Images/downloadversi.png)
-
-### 3. Lanjut Ekstrak
+1. SaaS: Software as a Service
+2. PaaS: Platform as a Service
+3. IaaS: Infrastructure as a Service
 
 
+### 1.Persiapan Aplikasi Flask
+- Jalankan Docker Dekstop
+- Mengambil kode sumber dan membuat folder:
 
+        # Clone repositori Flask
+        git clone https://github.com/pallets/flask
+
+        # Buat folder baru
+        mkdir flask-app
+
+        # Copy isi folder tutorial ke dalam folder flask-app
+        Copy-Item -Path .\flask\examples\tutorial\* -Destination .\flask-app\ -Recurse
+
+        # Masuk ke folder aplikasi
+        cd flask-app
