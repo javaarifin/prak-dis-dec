@@ -1,7 +1,7 @@
  LAPORAN PRAKTIKUM SISTEM TERDISTRIBUSI DAN TERDESENTRALISASI #
 
 ---
-## Minggu 5
+## Minggu 7
 
 ------
 Nama    : Muhammad Java Arifin
