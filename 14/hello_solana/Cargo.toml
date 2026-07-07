@@ -1,0 +1,17 @@
+[package]
+name = "hello_solana"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+solana-program = "4.0.0"
+
+[lints.rust]
+unexpected_cfgs = { level = "allow", check-cfg = ['cfg(feature, values("custom-heap", "custom-panic"))'] }
+
+[dev-dependencies]
+litesvm = "0.13.0"
+solana-sdk = "4.0.1"
